@@ -1,3 +1,4 @@
+# 杨辉三角形
 lst = list()
 for i in range(10):
     temp = [1]
@@ -6,7 +7,6 @@ for i in range(10):
         temp.append(data)
     if i != 0:
         temp.append(1)
-    # print(temp)
     lst.append(temp)
 
 for i in lst:
